@@ -1,0 +1,31 @@
+{
+  "name": "projects-tasks",
+  "version": "1.0.0",
+  "description": "A small and simple practice application of a CRUD with Node.js, Sequelize and Babel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node",
+    "build": "babel src --out-dir dist",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Guarox",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.10.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.2.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "nodemon": "^2.0.4"
+  }
+}
